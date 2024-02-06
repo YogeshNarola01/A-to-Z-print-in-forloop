@@ -1,0 +1,117 @@
+<html>
+<script text="javascript">
+    var i = 1;
+    while (i <= 7) {
+        a = 1;
+        while (a <= 7) {
+            if (i == a && i <= 4 || i + a == 8 && a >= 4 || a == 4 && i >= 4) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            a++;
+        } document.write(`&nbsp&nbsp`);
+        b = 1;
+        while (b <= 7) {
+            if (i == 1 || i == 7 || b == 1 || b == 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            b++;
+        } document.write(`&nbsp&nbsp`);
+        c = 1;
+        while (c <= 7) {
+            if (i == 1 || i == 7 || c == 1 || c == 7 && i >= 4 || i == 4 && c >= 4) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            c++;
+        } document.write(`&nbsp&nbsp`);
+        d = 1;
+        while (d <= 7) {
+            if (i == 1 || i == 7 || d == 1 || i == 4) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            d++;
+        } document.write(`&nbsp&nbsp`);
+        e = 1;
+        while (e <= 7) {
+            if (i == 1 || i == 4 || i == 7 || e == 1 && i <= 4 || e == 7 && i >= 4) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            e++;
+        } document.write(`&nbsp&nbsp`);
+        f = 1;
+        while (f <= 7) {
+            if (i == 4 || f == 1 || f == 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            f++;
+        } document.write(`&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`);
+        g = 1;
+        while (g <= 7) {
+            if (g == 1 || g == 7 || i == g && i <= 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            g++;
+        } document.write(`&nbsp&nbsp`);
+        h = 1;
+        while (h <= 7) {
+            if (i == 1 || h == 1 || i == 4 || h == 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            h++;
+        } document.write(`&nbsp&nbsp`);
+        j = 1;
+        while (j <= 7) {
+            if (i == 1 || i == 4 || j == 1 || j == 7 && i <= 4 || i - j == 1 && i >= 4) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            j++;
+        } document.write(`&nbsp&nbsp`);
+        k = 1;
+        while (k <= 7) {
+            if (i == 1 || i == 7 || k == 1 || k == 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            k++;
+        } document.write(`&nbsp&nbsp`);
+        m = 1;
+        while (m <= 7) {
+            if (i == 7 || m == 1) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            m++;
+        } document.write(`&nbsp&nbsp`);
+        n = 1;
+        while (n <= 7) {
+            if (i == 1 || i == 4 || n == 1 || n == 7) {
+                document.write(`* `);
+            } else {
+                document.write(`&nbsp&nbsp&nbsp`);
+            }
+            n++;
+        } document.write(`&nbsp&nbsp`);
+        i++;
+        document.write(`<br>`);
+    }
+</script>
+</html>
